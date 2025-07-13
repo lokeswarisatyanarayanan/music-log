@@ -110,3 +110,5 @@ Everything is structured to reflect real-world complexity while staying clean an
 -   Search and add logs
     
 -   Interactive Insights
+
+-   Adding Tests and UI Tests
