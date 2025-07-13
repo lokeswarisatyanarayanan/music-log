@@ -6,5 +6,27 @@
 	<array>
 		<string>remote-notification</string>
 	</array>
+    <key>UIAppFonts</key>
+    <array>
+        <string>Lato-Black.ttf</string>
+        <string>Lato-Bold.ttf</string>
+        <string>Lato-Italic.ttf</string>
+        <string>Lato-Light.ttf</string>
+        <string>Lato-Regular.ttf</string>
+        <string>Montserrat-Bold.ttf</string>
+        <string>Montserrat-Italic.ttf</string>
+        <string>Montserrat-Light.ttf</string>
+        <string>Montserrat-Regular.ttf</string>
+        <string>Montserrat-SemiBold.ttf</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>musiclog</string>
+        </array>
+      </dict>
+    </array>
 </dict>
 </plist>

@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6DDA1FB82E244D8100C159A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA1FB72E244D7B00C159A2 /* README.md */; };
+		6DE235DF2E18011C00BD03CA /* Iconoir in Frameworks */ = {isa = PBXBuildFile; productRef = 6DE235DE2E18011C00BD03CA /* Iconoir */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6D0D64DA2E1157AD008B74C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,7 @@
 		6D0D64C52E1157AC008B74C3 /* Music Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D0D64D92E1157AD008B74C3 /* Music LogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music LogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D0D64E32E1157AD008B74C3 /* Music LogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music LogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDA1FB72E244D7B00C159A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -37,6 +43,22 @@
 			);
 			target = 6D0D64C42E1157AC008B74C3 /* Music Log */;
 		};
+		6DDA1DFC2E24230600C159A2 /* Exceptions for "Music Log" folder in "Music LogTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Core/Extensions/Date+Extension.swift",
+				"Core/Extensions/String+Extension.swift",
+			);
+			target = 6D0D64D82E1157AD008B74C3 /* Music LogTests */;
+		};
+		6DDA1DFD2E24230600C159A2 /* Exceptions for "Music Log" folder in "Music LogUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Core/Extensions/Date+Extension.swift",
+				"Core/Extensions/String+Extension.swift",
+			);
+			target = 6D0D64E22E1157AD008B74C3 /* Music LogUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +66,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				6D0D64EB2E1157AD008B74C3 /* Exceptions for "Music Log" folder in "Music Log" target */,
+				6DDA1DFC2E24230600C159A2 /* Exceptions for "Music Log" folder in "Music LogTests" target */,
+				6DDA1DFD2E24230600C159A2 /* Exceptions for "Music Log" folder in "Music LogUITests" target */,
 			);
 			path = "Music Log";
 			sourceTree = "<group>";
@@ -65,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE235DF2E18011C00BD03CA /* Iconoir in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +113,7 @@
 		6D0D64BC2E1157AC008B74C3 = {
 			isa = PBXGroup;
 			children = (
+				6DDA1FB72E244D7B00C159A2 /* README.md */,
 				6D0D64C72E1157AC008B74C3 /* Music Log */,
 				6D0D64DC2E1157AD008B74C3 /* Music LogTests */,
 				6D0D64E62E1157AD008B74C3 /* Music LogUITests */,
@@ -125,6 +151,7 @@
 			);
 			name = "Music Log";
 			packageProductDependencies = (
+				6DE235DE2E18011C00BD03CA /* Iconoir */,
 			);
 			productName = "Music Log";
 			productReference = 6D0D64C52E1157AC008B74C3 /* Music Log.app */;
@@ -208,6 +235,9 @@
 			);
 			mainGroup = 6D0D64BC2E1157AC008B74C3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6DE235DD2E18011C00BD03CA /* XCRemoteSwiftPackageReference "iconoir-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6D0D64C62E1157AC008B74C3 /* Products */;
 			projectDirPath = "";
@@ -225,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDA1FB82E244D8100C159A2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +600,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DE235DD2E18011C00BD03CA /* XCRemoteSwiftPackageReference "iconoir-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iconoir-icons/iconoir-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DE235DE2E18011C00BD03CA /* Iconoir */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DE235DD2E18011C00BD03CA /* XCRemoteSwiftPackageReference "iconoir-swift" */;
+			productName = Iconoir;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6D0D64BD2E1157AC008B74C3 /* Project object */;
 }
