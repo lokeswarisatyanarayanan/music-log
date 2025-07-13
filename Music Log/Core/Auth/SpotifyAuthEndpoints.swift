@@ -8,8 +8,8 @@
 import Foundation
 
 enum SpotifyAuthEndpoints {
-    static let clientID = "a547c41465a6410ba54681163ae0e85b"
-    static let redirectURI = "musiclog://callback"
+    static let clientID = ""
+    static let redirectURI = ""
     static let authorizeURL = "https://accounts.spotify.com/authorize"
     static let tokenURL = "https://accounts.spotify.com/api/token"
 
