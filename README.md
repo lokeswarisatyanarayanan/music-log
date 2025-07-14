@@ -29,12 +29,10 @@ https://github.com/user-attachments/assets/29ba9db1-9336-41ca-ad4e-54167201b7d9
 ## 📸 Screenshots
 
 <img width="250" height="497" alt="Screenshot 2025-07-14 at 10 12 49 AM" src="https://github.com/user-attachments/assets/9d0e76bf-bf96-4a92-9550-74168165e46a" />
-<img width="250" height="497" alt="Screenshot 2025-07-14 at 10 11 51 AM" src="https://github.com/user-attachments/assets/e932f2cc-bfd9-474b-9aef-e5d52757022e" />
 <img width="250" height="497" alt="Screenshot 2025-07-14 at 10 11 35 AM" src="https://github.com/user-attachments/assets/19d0de6a-dcb7-4a4a-8ec6-fc8480000fad" />
 <img width="250" height="497" alt="Screenshot 2025-07-14 at 10 23 05 AM" src="https://github.com/user-attachments/assets/2ce82c32-9946-4eed-a45e-f00241e3146e" />
 <img width="250" height="497" alt="Screenshot 2025-07-14 at 10 23 10 AM" src="https://github.com/user-attachments/assets/3f415725-691c-40a4-8291-7f0b588d7ef7" />
 <img width="250" height="497" alt="Screenshot 2025-07-14 at 10 23 19 AM" src="https://github.com/user-attachments/assets/4282fda8-a661-49c2-af67-9e5ddb95177b" />
-<img width="250" height="497" alt="Screenshot 2025-07-14 at 10 23 23 AM" src="https://github.com/user-attachments/assets/b4676270-595a-4079-99f1-6b92229a99a4" />
 <img width="250" height="497" alt="Screenshot 2025-07-14 at 10 23 31 AM" src="https://github.com/user-attachments/assets/2e2e70c1-6ee4-41d6-bfcf-94b0048aef8f" />
 
 ## 🧱 Tech Stack
